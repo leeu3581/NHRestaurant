@@ -1,0 +1,53 @@
+body{
+	font-family: 'Lato'
+}
+
+
+input#wisdom {
+	padding: 4px;
+	font-size: 1em;
+	width: 400px
+}
+
+input::placeholder {
+	color: #ccc;
+	font-style: italic;
+}
+
+p.userRequest {
+	margin: 4px;
+	padding: 8px 10px 10px 10px;
+	border-radius: 4px;
+	min-width: 50%;
+	max-width: 85%;
+	float: right;
+	background-color: #1789fc;
+}
+
+p.lexResponse {
+	margin: 4px;
+	padding: 8px 10px 10px 10px;
+	border-radius: 4px;
+	text-align: left;
+	min-width: 50%;
+	max-width: 85%;
+	float: left;
+	background-color: #ffffff;
+}
+p.lexError {
+	margin: 4px;
+	padding: 8px 10px 10px 10px;
+	border-radius: 4px;
+	text-align: right;
+	min-width: 50%;
+	max-width: 85%;
+	float: right;
+	background-color: #ba324f;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center
+}
